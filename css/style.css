@@ -1,0 +1,45 @@
+thead , h1
+{
+    background-color:gray;
+}
+#pagename
+{
+    color:blue;
+}
+*.cheader
+{
+    color: purple;
+    
+}
+*.rheader
+{
+    color: green;
+}
+a
+{
+    font-size: 12pt;
+}
+p::first-letter
+{
+    font-size: 18pt;
+}
+table a
+{
+    font-size: 6pt;
+}
+th:hover
+{
+    color: white;
+}
+:visited
+{
+    color:coral
+}
+th + td
+{
+    font-family:Impact
+}
+thead th
+{
+    border: 3px solid black;
+}
