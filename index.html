@@ -3,17 +3,44 @@
 <html lang="en">
 <head>
   <title>Homepage</title>
-  <link rel="icon" href="UNClogo.png">
+  <link rel="icon" href="images/UNClogo.png">
   <style>
+    @font-face 
+    {
+      font-family: UNCTitle;
+      src: url('css/fonts/Aleo.ttf');
+    }
+    @font-face 
+    {
+      font-family: UNCText;
+      src: url('css/fonts/OpenSans.ttf');
+    }
+    *
+    {
+      font-family: UNCText;
+    }
+    :root
+    {
+      --UNC-Blue:#013c65;
+      --UNC-Gold: #f6b000;
+      --UNC-Gray: #60697a;
+    }
     h1
     {
-      color: blue;
-      font-size: 40pt;
+      font-family: UNCTitle;
+      color: var(--UNC-Blue);
+      font-size: 8vw;
     }
     h2
     {
-      color: gold;
+      font-family: UNCTitle;
+      color: var(--UNC-Gold);
       font-size: 32pt;
+    }
+    p
+    {
+      font-family: UNCText;
+      color: var(--UNC-Gray);
     }
   </style>
 </head>
