@@ -24,3 +24,18 @@ h1, h2, h3, h4, h5, h6
     font-family: UNCTitle;
     color: var(--UNC-Blue);
 }
+table 
+{
+border: ridge #013c65 3px;
+background-color: #60697a;
+padding: 3px;
+}
+th
+{
+  font-size: 24px;
+  font-family: Monospace;
+}
+a:hover
+{
+  background: #f6b000;
+}
