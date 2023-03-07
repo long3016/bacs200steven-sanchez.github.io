@@ -33,11 +33,11 @@ th:hover
 }
 :visited
 {
-    color:coral
+    color:coral;
 }
 th + td
 {
-    font-family:Impact
+    font-family:Impact;
 }
 thead th
 {

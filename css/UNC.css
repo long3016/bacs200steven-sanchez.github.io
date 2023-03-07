@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6
     font-family: UNCTitle;
     color: var(--UNC-Blue);
 }
+
 table 
 {
 border: ridge #013c65 3px;
@@ -39,3 +40,11 @@ a:hover
 {
   background: #f6b000;
 }
+
+
+h1:hover, h2:hover, h3:hover
+{
+  color: blue;
+}
+
+
